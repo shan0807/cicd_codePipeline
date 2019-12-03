@@ -1,0 +1,9 @@
+vpc_cidr = "10.0.0.0/16"
+environment = "production"
+public_subnet_cidrs = ["10.0.0.0/24", "10.0.1.0/24"]
+private_subnet_cidrs = ["10.0.50.0/24", "10.0.51.0/24"]
+availibility_zones = ["eu-central-1a", "eu-central-1b"]
+region = "eu-central-1"
+ami_image = "ami-0d4c3eabb9e72650a"
+ecs_key = "shan-aws"
+instance_type = "t2.medium"
